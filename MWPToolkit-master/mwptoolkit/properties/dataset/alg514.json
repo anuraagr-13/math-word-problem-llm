@@ -1,0 +1,13 @@
+{
+    "min_word_keep":5,
+    "min_generate_keep":5,
+    "mask_symbol":"number",
+    "max_output_len":50,
+    "single":false,
+    "linear":true,
+    "read_local_folds":true,
+    "language":"en",
+    "train_batch_size":32,
+    "test_batch_size":32,
+    "source_equation_fix":"infix"
+}

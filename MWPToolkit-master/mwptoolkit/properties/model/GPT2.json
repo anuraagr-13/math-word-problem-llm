@@ -1,0 +1,16 @@
+{
+    "pretrained_model":"gpt2",
+    "learner": "schedule",
+    "learning_rate": 1e-4,
+    "symbol_for_tree":false,
+    "max_len":256,
+    "warmup_steps": 1500,
+    "share_vocab":true,
+    "test_batch_size":32,
+    "epoch_nums":200,
+    "mask_symbol":"number",
+    "add_sos":true,
+    "add_eos":true,
+    "equation_fix":"prefix",
+    "add_num_symbol": true
+}

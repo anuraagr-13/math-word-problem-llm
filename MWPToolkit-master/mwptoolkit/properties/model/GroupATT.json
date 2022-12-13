@@ -1,0 +1,26 @@
+{
+    "embedding_size":128,
+    "hidden_size":256,
+    "decode_hidden_size":512,
+    "learning_rate":1e-3,
+    "decoder_rnn_cell_type":"lstm",
+    "encoder_rnn_cell_type":"lstm",
+    "teacher_force_ratio":0.83,
+    "num_layers":2,
+    "epoch_nums":100,
+    "max_output_len":30,
+    "dropout_ratio":0.3,
+    "bidirectional":true,
+    "step_size":20,
+
+    "rule1":false,
+    "rule2":false,
+    "share_vocab":true,
+    "mask_symbol":"number",
+    "attention":true,
+    "equation_fix":"postfix",
+    "self_attention":true,
+    "symbol_for_tree":false,
+    "add_sos":false,
+    "add_eos":false
+}
