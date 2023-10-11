@@ -2,8 +2,6 @@ from contextlib import contextmanager
 import signal
 import torch as th
 
-# taken from
-# https://stackoverflow.com/questions/492519/timeout-on-a-function-call
 @contextmanager
 def timeout(duration, formula):
     def timeout_handler(signum, frame):

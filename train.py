@@ -43,7 +43,7 @@ def main():
             pbar.update(1)
             pbar.set_description(f"train_loss: {loss.item():.5f}")
 
-    model.save_pretrained("model_ckpts/")
+    model.save_pretrained("model/")
 
 
 if __name__ == "__main__":
